@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .activeNav {
+    @apply w-28 bg-white text-[#705b93] h-full flex items-center justify-center font-bold;
+  }
+
+  .deactiveNav {
+    @apply w-28 h-full flex items-center justify-center;
+  }
+}

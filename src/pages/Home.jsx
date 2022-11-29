@@ -1,7 +1,12 @@
 import React from "react";
+import HomeHeader from "../components/Home/HomeHeader";
 
 const Home = () => {
-  return <div className="text-3xl font-bold underline min-h-screen">Home</div>;
+  return (
+    <div className="min-h-screen m-12">
+      <HomeHeader />
+    </div>
+  );
 };
 
 export default Home;

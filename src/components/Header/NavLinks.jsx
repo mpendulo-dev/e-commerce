@@ -11,8 +11,8 @@ const NavLinks = () => {
         <NavLink>Contact Us</NavLink>
       </div>
       <div className="flex pr-4 gap-8">
-        <NavLink>LOG IN</NavLink>
-        <NavLink>REGISTER</NavLink>
+        <NavLink to="login">LOG IN</NavLink>
+        <NavLink to="register">REGISTER</NavLink>
       </div>
     </div>
   );

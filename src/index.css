@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
 @layer base {
   .activeNav {
     @apply w-28 bg-white text-[#705b93] h-full flex items-center justify-center font-bold;

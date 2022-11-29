@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Error from "./pages/Error";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import WishList from "./pages/WishList";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "wishlist",
-        element: <div>wishlist</div>,
+        element: <WishList />,
       },
       {
         path: "/products/:id",

@@ -18,7 +18,7 @@ const NavFilter = () => {
       </div>
       <div className="flex gap-16 md:pr-8 justify-items-end">
         <div>
-          <li className="block mt-4 lg:inline-block lg:mt-0 lg:ml-6 align-middle text-[#6b568c] hover:text-gray-700">
+          <li className="block mt-4 lg:inline-block lg:mt-0 lg:ml-6 align-middle text-[#6b568c] hover:text-[#8a79a6]">
             <a href="#" role="button" className="relative flex">
               <svg className="flex-1 w-8 h-6 fill-current" viewBox="0 0 24 24">
                 <path
